@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.calculatorContainer{
+    width: 30%;
+    height: 30vw;
+    border: 1px solid gray;
+    margin-left: 35%;
+    padding-left: -20%;
+    margin-top: 30px;
+}
+
+
+input{
+    padding: 15px;
+    padding-left: 10vw;
+    padding-right: 3vw;
+    margin-top: 10px;
+}
+
+.rowOne{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    margin-left: 7%;
+    margin-top: 20px;
+}
+
+.text{
+    width: 5vw;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background: rgba(204, 189, 189, 0.856);
+    cursor: pointer;
+}
+
+.rowOne .text:nth-child(1){
+    background: rgb(146, 145, 145);
+}
+
+.rowOne .text:nth-child(2){
+    background: rgb(146, 145, 145);
+}
+
+.rowOne .text:nth-child(3){
+    background: rgb(146, 145, 145);
+}
+
+.rowOne .text:nth-child(4){
+    background: rgb(146, 145, 145);
+}
+
+.rowTwo .text:nth-child(4){
+    background: rgb(146, 145, 145);
+}
+
+.rowThree .text:nth-child(4){
+    background: rgb(146, 145, 145);
+}
+
+.rowFour .text:nth-child(4){
+    background: rgb(146, 145, 145);
+}
+
+.rowFive .text:nth-child(4){
+    background: rgb(146, 145, 145);
+}
+
+.rowFive .text:nth-child(3){
+    background: rgb(41, 92, 235);
+}
+
+
+.rowTwo{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    margin-left: 7%;
+    margin-top: 20px;
+}
+
+.rowThree{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    margin-left: 7%;
+    margin-top: 20px;
+}
+
+.rowFour{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    margin-left: 7%;
+    margin-top: 20px;
+}
+
+
+.rowFive{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    margin-left: 7%;
+    margin-top: 20px;
+}
